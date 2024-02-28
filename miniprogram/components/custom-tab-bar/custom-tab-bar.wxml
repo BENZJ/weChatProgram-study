@@ -1,0 +1,9 @@
+<!--components/custom-tab-bar.wxml-->
+<view class="custom-tab-bar">
+  <block wx:for="{{list}}" wx:key="index">
+    <view bindtap="onChange" data-index="{{index}}" class="tab-item {{active === index ? 'active' : ''}}">
+      <image class="tab-icon" />
+      <text>{{item.text}}</text>
+    </view>
+  </block>
+</view>
