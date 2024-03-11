@@ -41,9 +41,11 @@ Component({
    */
   methods: {
     onChange(event: any) {
-      // console.log(event.currentTarget.dataset.index);
+     
       const url = this.data.list[event.currentTarget.dataset.index].pagePath;
-      wx.switchTab({ url });
+      console.log(event.currentTarget.dataset.index);
+      console.log({ url });
+      wx.navigateTo({ url });
       this.setData({ active: event.currentTarget.dataset.index});
     },
     updateActiveTab() {
