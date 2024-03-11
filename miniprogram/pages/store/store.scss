@@ -1,0 +1,19 @@
+/* pages/store.wxss */
+/* 商城页面 Scss 样式 */
+.page-mall {
+  display: flex;
+  justify-content: space-between;
+  .left-nav {
+    // 左侧导航栏样式
+    width: 20%;
+    // 其他样式...
+  }
+  .main-content {
+    // 主内容区域样式
+    width: 80%;
+    .subcategory-card-list {
+      // 小类组件样式
+      // 其他样式...
+    }
+  }
+}

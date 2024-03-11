@@ -1,0 +1,10 @@
+<!--components/category-side-bar.wxml-->
+<view class="left-nav">
+  <block wx:for="{{categories}}" wx:key="*this">
+    <view class="category-item {{selectedCategory === item ? 'selected' : ''}}"
+         data-category="{{item}}"
+         bindtap="selectCategory">
+      {{item}}
+    </view>
+  </block>
+</view>

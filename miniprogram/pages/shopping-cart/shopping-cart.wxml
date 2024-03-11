@@ -1,0 +1,5 @@
+<!--pages/shopping-cart/shopping-cart.wxml-->
+<navigation-bar title="购物车" color="black"  back="{{false}}" background="#FFF"></navigation-bar>
+
+
+<custom-tab-bar></custom-tab-bar>

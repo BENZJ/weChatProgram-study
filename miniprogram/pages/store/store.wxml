@@ -1,0 +1,11 @@
+<!--pages/store.wxml-->
+<!-- <text>pages/store.wxml</text> -->
+<navigation-bar title="商城" color="black"  back="{{false}}" background="#FFF"></navigation-bar>
+<view class="page-mall">
+    <category-side-bar class="left-nav" ></category-side-bar>
+    <view class="main-content">
+        <subcategory-card-list></subcategory-card-list>
+    </view>
+</view>
+
+<custom-tab-bar></custom-tab-bar>

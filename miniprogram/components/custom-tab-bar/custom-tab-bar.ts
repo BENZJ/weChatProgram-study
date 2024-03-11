@@ -22,6 +22,18 @@ Component({
         // selectedIconPath: "./assets/home-active.png"
       },
       {
+        pagePath: "/pages/store/store",
+        text: "商城",
+        // iconPath: "./assets/user.png",
+        // selectedIconPath: "./assets/user-active.png"
+      },
+      {
+        pagePath: "/pages/shopping-cart/shopping-cart",
+        text: "购物车",
+        // iconPath: "./assets/user.png",
+        // selectedIconPath: "./assets/user-active.png"
+      },
+      {
         pagePath: "/pages/logs/logs",
         text: "我的",
         // iconPath: "./assets/user.png",

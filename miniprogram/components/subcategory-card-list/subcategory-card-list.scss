@@ -1,0 +1,30 @@
+/* components/subcategory-card-list/subcategory-card-list.wxss */ 
+.subcategory-card {
+  margin: 10px;
+  border: 1px solid #eaeaea;
+  .subcategory-title {
+    padding: 10px;
+    background-color: #f7f7f7;
+    font-size: 18px;
+    text-align: center;
+  }
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .product-item {
+      width: calc(50% - 10px);
+      margin: 5px;
+      .product-image {
+        width: 100%;
+        aspect-ratio: 1;
+        background-size: cover;
+        background-position: center;
+      }
+      .product-name {
+        padding: 5px;
+        text-align: center;
+      }
+    }
+  }
+}

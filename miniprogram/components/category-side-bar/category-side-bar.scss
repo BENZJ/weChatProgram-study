@@ -1,0 +1,14 @@
+/* components/category-side-bar.wxss */
+.left-nav {
+  width: 20%;
+  min-width: 150px;
+  height: 100vh;
+  background-color: #f7f7f7;
+  .category-item {
+    padding: 10px;
+    cursor: pointer;
+    &:hover, &.selected {
+      background-color: #e6e6e6;
+    }
+  }
+}

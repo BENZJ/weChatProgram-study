@@ -1,0 +1,12 @@
+<!--components/subcategory-card-list/subcategory-card-list.wxml-->
+<view class="subcategory-card">
+  <view class="subcategory-title">{{subcategoryName}}</view>
+  <view class="product-list">
+    <block wx:for="{{productList}}" wx:key="*this">
+      <view class="product-item">
+        <!-- <image class="product-image" src="{{item.image}}" /> -->
+        <view class="product-name">{{item.name}}</view>
+      </view>
+    </block>
+  </view>
+</view>
